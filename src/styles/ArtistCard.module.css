@@ -1,0 +1,59 @@
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e4e6ee;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(12, 22, 50, 0.08);
+}
+
+.link {
+  display: grid;
+  gap: 16px;
+  padding: 16px;
+}
+
+.imageWrapper {
+  position: relative;
+}
+
+.imagePlaceholder {
+  background: #d7dbe6;
+  border-radius: 12px;
+  width: 100%;
+  padding-top: 120%;
+}
+
+.imageAlt {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+}
+
+.content {
+  display: grid;
+  gap: 8px;
+}
+
+.name {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.summary {
+  margin: 0;
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+.card[data-variant='compact'] .summary {
+  display: none;
+}

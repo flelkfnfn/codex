@@ -1,0 +1,37 @@
+.page {
+  display: grid;
+  gap: 24px;
+}
+
+.header {
+  display: grid;
+  gap: 8px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e4e6ee;
+  padding: 16px;
+  display: grid;
+  gap: 12px;
+}
+
+.mediaPlaceholder {
+  width: 100%;
+  padding-top: 70%;
+  background: #d7dbe6;
+  border-radius: 12px;
+}
+
+.caption {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #6b7280;
+}
