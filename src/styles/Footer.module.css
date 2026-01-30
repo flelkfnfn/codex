@@ -1,0 +1,32 @@
+.footer {
+  padding: 24px;
+  background: #ffffff;
+  border-top: 1px solid #e4e6ee;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sns {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.snsLabel {
+  font-weight: 600;
+}
+
+.snsIcons {
+  display: inline-flex;
+  gap: 8px;
+  width: 120px;
+  height: 24px;
+  background: #d7dbe6;
+  border-radius: 999px;
+}
+
+.copy {
+  margin: 0;
+  color: #6b7280;
+}

@@ -1,0 +1,23 @@
+.page {
+  display: grid;
+  gap: 24px;
+}
+
+.header {
+  display: grid;
+  gap: 8px;
+}
+
+.sections {
+  display: grid;
+  gap: 16px;
+}
+
+.section {
+  background: #ffffff;
+  border-radius: 20px;
+  border: 1px solid #e4e6ee;
+  padding: 20px;
+  display: grid;
+  gap: 8px;
+}
